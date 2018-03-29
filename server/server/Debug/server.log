@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\rok1\desktop\mrkirm projekat\server\server\main.cpp(28): warning C4101: 'iSendResult': unreferenced local variable
+  server.vcxproj -> C:\Users\Rok1\Desktop\MRKiRM Projekat\server\Debug\server.exe
+  server.vcxproj -> C:\Users\Rok1\Desktop\MRKiRM Projekat\server\Debug\server.pdb (Partial PDB)
