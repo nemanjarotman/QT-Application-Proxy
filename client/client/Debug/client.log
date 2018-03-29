@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\rok1\desktop\mrkirm projekat\client\client\main.cpp(128): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+c:\users\rok1\desktop\mrkirm projekat\client\client\main.cpp(130): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+  client.vcxproj -> C:\Users\Rok1\Desktop\MRKiRM Projekat\client\Debug\client.exe
+  client.vcxproj -> C:\Users\Rok1\Desktop\MRKiRM Projekat\client\Debug\client.pdb (Partial PDB)
