@@ -1,13 +1,13 @@
 #include <QCoreApplication>
-#include "proxy.h"
 #include <iostream>
+#include "proxy.h"
 
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    Proxy proxy;
-
+    AppProxy proxy;
+    proxy.start();
 
     return a.exec();
 }

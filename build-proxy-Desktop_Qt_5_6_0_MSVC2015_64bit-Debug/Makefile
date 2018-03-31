@@ -212,6 +212,8 @@ Makefile: ..\proxy\proxy.pro C:\Qt\Qt5.6.0\5.6\msvc2015_64\mkspecs\win32-msvc201
 		C:\Qt\Qt5.6.0\5.6\msvc2015_64\mkspecs\features\yacc.prf \
 		C:\Qt\Qt5.6.0\5.6\msvc2015_64\mkspecs\features\lex.prf \
 		..\proxy\proxy.pro \
+		C:\Qt\Qt5.6.0\5.6\msvc2015_64\lib\Qt5WebSockets.prl \
+		C:\Qt\Qt5.6.0\5.6\msvc2015_64\lib\Qt5Network.prl \
 		C:\Qt\Qt5.6.0\5.6\msvc2015_64\lib\Qt5Core.prl
 	$(QMAKE) -spec win32-msvc2015 "CONFIG+=debug" "CONFIG+=qml_debug" -o Makefile ..\proxy\proxy.pro
 C:\Qt\Qt5.6.0\5.6\msvc2015_64\mkspecs\features\spec_pre.prf:
@@ -353,6 +355,8 @@ C:\Qt\Qt5.6.0\5.6\msvc2015_64\mkspecs\features\exceptions.prf:
 C:\Qt\Qt5.6.0\5.6\msvc2015_64\mkspecs\features\yacc.prf:
 C:\Qt\Qt5.6.0\5.6\msvc2015_64\mkspecs\features\lex.prf:
 ..\proxy\proxy.pro:
+C:\Qt\Qt5.6.0\5.6\msvc2015_64\lib\Qt5WebSockets.prl:
+C:\Qt\Qt5.6.0\5.6\msvc2015_64\lib\Qt5Network.prl:
 C:\Qt\Qt5.6.0\5.6\msvc2015_64\lib\Qt5Core.prl:
 qmake: FORCE
 	@$(QMAKE) -spec win32-msvc2015 "CONFIG+=debug" "CONFIG+=qml_debug" -o Makefile ..\proxy\proxy.pro
